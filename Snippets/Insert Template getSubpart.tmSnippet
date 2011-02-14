@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;templateCode = \$this-&gt;cObj-&gt;getSubpart(\$this-&gt;templateFile, '###${1:TEMPLATE_LISTING}###');
+$0</string>
+	<key>name</key>
+	<string>Insert Template getSubpart</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>tmpl</string>
+	<key>uuid</key>
+	<string>BD9CB245-580D-446B-A3A6-94E550C3220F</string>
+</dict>
+</plist>

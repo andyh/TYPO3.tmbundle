@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$res = \$GLOBALS['TYPO3_DB']-&gt;exec_SELECTquery('${1:*}','tx_${2:table_name}','${3:WHERE}'${4: . \$this-&gt;cObj-&gt;enableFields('tx_$2')},'${5:group}','${6:order}','${7:limit}');
+$0</string>
+	<key>name</key>
+	<string>execSELECTQuery</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>t3db</string>
+	<key>uuid</key>
+	<string>187688C7-1A94-4C93-A1A5-34490E612EEC</string>
+</dict>
+</plist>

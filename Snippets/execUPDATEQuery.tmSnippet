@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$res = \$GLOBALS['TYPO3_DB']-&gt;exec_UPDATEquery('tx_${1:table_name}','${2:WHERE}',${3:fields_values_array}${5:,no_quote_fields});
+$0</string>
+	<key>name</key>
+	<string>execUPDATEQuery</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>t3db</string>
+	<key>uuid</key>
+	<string>B656C232-5846-41D0-9264-6A5E31B0455F</string>
+</dict>
+</plist>

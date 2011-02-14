@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>moveToEndOfLineAndModifySelection:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>copy:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<string>s</string>
+			<key>command</key>
+			<string>insertText:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<string>u</string>
+			<key>command</key>
+			<string>insertText:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<string>b</string>
+			<key>command</key>
+			<string>insertText:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<string>sub</string>
+			<key>command</key>
+			<string>deleteTabTrigger:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>content</key>
+				<string>\$substArray['###${2:${1/.*/\U$0/}}###'] = \$this-&gt;getFieldContent('${1:markerid}');
+${3:sub}$0</string>
+				<key>name</key>
+				<string>Substitute Array Code Snippet</string>
+				<key>scope</key>
+				<string>source.php</string>
+				<key>tabTrigger</key>
+				<string>sub</string>
+				<key>uuid</key>
+				<string>74091C54-A365-4768-A029-584D2CD3BCBD</string>
+			</dict>
+			<key>command</key>
+			<string>insertSnippetWithOptions:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>paste:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>nextSnippetField:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>nextSnippetField:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>deleteForward:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>deleteForward:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>moveToBeginningOfLine:</string>
+		</dict>
+	</array>
+	<key>name</key>
+	<string>convert item to substitute array marker</string>
+	<key>uuid</key>
+	<string>47113C3B-1B4F-4161-8671-0B09C4D707C5</string>
+</dict>
+</plist>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;!--###SUB_INCLUDED_FIELD_${1:fieldname}###--&gt;
+    &lt;tr valign="top" bgcolor="#E7F0FA"&gt;
+        &lt;td&gt;
+        	&lt;p&gt;###LABEL_${1/.*/\U$0/}### ###REQUIRED_${1/.*/\U$0/}###&lt;/p&gt;
+        &lt;/td&gt;
+    &lt;td&gt;
+    	&lt;!--  ###SUB_ERROR_FIELD_$1### begin --&gt;
+    &lt;p&gt;###EVAL_ERROR_FIELD_$1###&lt;/p&gt;
+    	&lt;!--  ###SUB_ERROR_FIELD_$1### end   --&gt;
+
+    &lt;!--###SUB_REQUIRED_FIELD_$1###--&gt;
+    &lt;p&gt;###MISSING_${1/.*/\U$0/}###&lt;/p&gt;
+    &lt;!--###SUB_REQUIRED_FIELD_$1###--&gt;
+    &lt;p&gt;###TCA_INPUT_$1###&lt;/p&gt;
+    &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;!--###SUB_INCLUDED_FIELD_$1###--&gt;</string>
+	<key>name</key>
+	<string>FE User Field</string>
+	<key>scope</key>
+	<string>text.html.basic</string>
+	<key>tabTrigger</key>
+	<string>sub</string>
+	<key>uuid</key>
+	<string>A853CAD9-39FA-45E5-B8B7-9C0C7D1BCCB2</string>
+</dict>
+</plist>
